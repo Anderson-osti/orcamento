@@ -114,7 +114,7 @@ def tela_cadastro():
             "Extintor CO2 (Novo)", "Extintor CO2 (Carga)",
             "Extintor Água Pressurizada (Novo)", "Extintor Água Pressurizada (Carga)"
         ])
-        capacidade = st.selectbox("Capacidade", ["2kg", "4kg", "6kg", "9kg", "10kg", "12kg", "20kg", "25L", "50L"])
+        capacidade = st.selectbox("Capacidade", ["2kg", "4kg", "6kg", "9kg", "10kg", "12kg", "20kg", "10L", "25L", "50L"])
         mangueira = st.selectbox("Mangueira de hidrante", ["Nenhuma", "20 metros", "25 metros", "30 metros"])
         preco_unitario = st.number_input("Preço unitário (R$)", min_value=0.0, step=0.01, format="%.2f")
         quantidade = st.number_input("Quantidade", min_value=1, step=1)
